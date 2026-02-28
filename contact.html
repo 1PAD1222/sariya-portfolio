@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Sariya.Tech</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#020617;color:#e2e8f0}
+.bg{position:fixed;inset:0;background:linear-gradient(-45deg,#0f172a,#1e3a8a,#312e81,#0ea5e9);background-size:400% 400%;animation:gradient 18s ease infinite;z-index:-3}
+@keyframes gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+nav{display:flex;justify-content:space-between;padding:20px 60px;background:rgba(2,6,23,.9)}
+nav a{color:#cbd5e1;text-decoration:none;margin-left:25px}
+nav a:hover{color:#38bdf8}
+.logo{font-family:'Orbitron';font-weight:900;color:#38bdf8}
+.container{padding:140px 80px;max-width:600px;margin:auto}
+h2{font-family:'Orbitron';font-size:48px;color:#38bdf8;margin-bottom:40px}
+input,textarea{width:100%;padding:12px;margin-bottom:20px;background:#0f172a;border:1px solid rgba(56,189,248,.3);color:white;border-radius:6px}
+button{padding:12px 30px;background:#38bdf8;border:none;color:#020617;font-weight:700;border-radius:6px;cursor:pointer}
+button:hover{box-shadow:0 15px 40px rgba(56,189,248,.4)}
+footer{text-align:center;padding:40px;margin-top:120px;border-top:1px solid rgba(255,255,255,.1)}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<nav>
+<div class="logo">SARIYA.TECH</div>
+<div>
+<a href="index.html">Home</a>
+<a href="projects.html">Projects</a>
+<a href="services.html">Services</a>
+</div>
+</nav>
+<div class="container">
+<h2>Contact Me</h2>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea rows="5" placeholder="Your Message"></textarea>
+<button>Send Message</button>
+</div>
+<footer>© 2026 Sariya.Tech</footer>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog | Sariya.Tech</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Poppins:wght@400;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#020617;color:#e2e8f0}
+.bg{position:fixed;inset:0;background:linear-gradient(-45deg,#0f172a,#1e3a8a,#312e81,#0ea5e9);background-size:400% 400%;animation:gradient 18s ease infinite;z-index:-3}
+@keyframes gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+nav{display:flex;justify-content:space-between;padding:20px 60px;background:rgba(2,6,23,.9)}
+nav a{color:#cbd5e1;text-decoration:none;margin-left:25px}
+nav a:hover{color:#38bdf8}
+.logo{font-family:'Orbitron';font-weight:900;color:#38bdf8}
+.container{padding:140px 80px;max-width:1100px;margin:auto}
+h2{font-family:'Orbitron';font-size:48px;color:#38bdf8;margin-bottom:60px;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:40px}
+.card{background:#0f172a;padding:30px;border-radius:16px;border:1px solid rgba(56,189,248,.2);transition:.4s}
+.card:hover{transform:translateY(-8px);box-shadow:0 20px 50px rgba(56,189,248,.3)}
+.card h3{font-family:'Poppins';color:#a78bfa;margin-bottom:15px}
+.card p{color:#cbd5e1;line-height:1.7}
+footer{text-align:center;padding:40px;margin-top:120px;border-top:1px solid rgba(255,255,255,.1)}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<nav>
+<div class="logo">SARIYA.TECH</div>
+<div>
+<a href="index.html">Home</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+<div class="container">
+<h2>Tech Insights & Articles</h2>
+<div class="grid">
+<div class="card">
+<h3>Modern Web Architecture</h3>
+<p>An in-depth exploration of scalable frontend and backend structures using component-driven design, modular APIs and optimized build systems.</p>
+</div>
+<div class="card">
+<h3>Performance Optimization Strategies</h3>
+<p>Best practices for reducing load time, improving Lighthouse scores and structuring applications for maximum efficiency.</p>
+</div>
+<div class="card">
+<h3>UI/UX Design Principles</h3>
+<p>Understanding user psychology, visual hierarchy and design systems to create intuitive digital experiences.</p>
+</div>
+</div>
+</div>
+<footer>© 2026 Sariya.Tech</footer>
+</body>
+</html>
